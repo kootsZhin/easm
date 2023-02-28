@@ -2,15 +2,15 @@
 /// Tokens are interpreted by the compiler.
 #[derive(Debug)]
 pub struct Lexer {
-    input: String,
-    tokens: Vec<Token>,
+    pub input: String,
+    pub tokens: Vec<Token>,
 }
 
 #[derive(Debug)]
 pub struct Token {
-    token_type: TokenType,
-    lineno: usize,
-    text: String,
+    pub token_type: TokenType,
+    pub lineno: usize,
+    pub text: String,
 }
 
 #[derive(Debug)]

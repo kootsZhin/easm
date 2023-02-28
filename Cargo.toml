@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 eyre = "0.6.8"
+strum = "0.24.1"
+strum_macros = "0.24.3"
